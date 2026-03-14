@@ -1,0 +1,35 @@
+# Programa: Calcular el promedio de dos calificaciones
+
+# Método que calcula el promedio
+def calcular_promedio(nota1, nota2):
+    promedio = (nota1 + nota2) / 2
+    return promedio
+
+
+# Función principal del programa
+def main():
+    print("=== Sistema para calcular promedio de notas ===")
+
+    # Pedir las notas al usuario
+    nota1 = float(input("Ingrese la primera nota: "))
+    nota2 = float(input("Ingrese la segunda nota: "))
+
+    # Llamar al método
+    resultado = calcular_promedio(nota1, nota2)
+
+    # Mostrar resultado
+    print("\nResultados")
+    print("Nota 1:", nota1)
+    print("Nota 2:", nota2)
+    print("Promedio final:", resultado)
+
+    # Verificar si aprobó
+    if resultado >= 7:
+        print("Estado: Aprobado")
+    else:
+        print("Estado: Reprobado")
+
+
+# Ejecutar el programa
+if __name__ == "__main__":
+    main()
