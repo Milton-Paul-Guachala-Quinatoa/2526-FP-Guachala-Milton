@@ -57,7 +57,7 @@ while True:
         print()
     
     elif opcion == "5":
-        nombre = input("¿Quién eliminar? ")
+        nombre = input("¿A quién desea eliminar? ")
         if nombre in estudiantes:
             del estudiantes[nombre]
             print("Eliminado")
