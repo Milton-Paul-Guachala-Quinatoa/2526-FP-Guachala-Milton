@@ -1,4 +1,4 @@
-# Gestor de Calificaciones de estudiantes que se desee agregar o incluso eliminar.
+# Administrador de Calificaciones de estudiantes que se desee agregar o incluso eliminar.
 
 estudiantes = {}
 
